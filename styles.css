@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    flex-direction: column;
+    min-width: 80vw;
+  }
+  
+  video,
+  img,
+  iframe {
+    width: 80%;
+    aspect-ratio: 16/9;
+  }
+  
+  .div-1 p {
+    font-size: 2rem;
+    font-weight: bold;
+    background: -webkit-linear-gradient(55deg, rgb(129, 252, 80), rgb(219, 3, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .tooltip {
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    border: 2px solid cyan;
+    background: red;
+    border-radius: 8px;
+  }
+  
